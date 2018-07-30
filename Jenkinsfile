@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build') {
-        sh "${mvnHome}/bin/mvn clean deploy
+        sh "${mvnHome}/bin/mvn clean install"
     }
 
 }
