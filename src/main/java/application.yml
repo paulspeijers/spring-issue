@@ -1,0 +1,9 @@
+server:
+  port: '8443'
+  servlet:
+    session:
+      cookie:
+        http-only: 'false'
+        secure: 'true'
+    context-path: /spring-issue
+helloworld: 'Hello world!'
